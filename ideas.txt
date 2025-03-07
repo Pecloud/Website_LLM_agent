@@ -1,0 +1,14 @@
+餐馆推荐 with LLM based on user preference
+
+先定框架然后每天行程一步步定
+
+天气信息，淡旺季，温度紫外线自然灾害,给出出行时间建议，翻译软件建议，签证建议
+
+爬虫小红书，大众点评with 点赞收藏量
+https://zhuanlan.zhihu.com/p/681430803
+https://github.com/cv-cat/Spider_XHS
+https://github.com/NanmiCoder/MediaCrawler
+
+支持特定细节展开搜索，比如酒店，饭店；以及用户高亮某段后自定义提问
+
+爬虫携程，飞猪以及其他旅行网站查阅机票和酒店
