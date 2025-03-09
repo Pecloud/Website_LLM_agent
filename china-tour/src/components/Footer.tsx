@@ -1,9 +1,14 @@
 import Link from 'next/link';
 import {footerConfig} from '@/config/footer';
+import {cn} from '@/lib/utils';
 
-const Footer = () => {
+interface FooterProps {
+  className?: string;
+}
+
+const Footer = ({className}: FooterProps) => {
   return (
-    <footer className="w-full bg-[#D14B0D] text-white">
+    <footer className={cn('w-full bg-[#D14B0D] text-white', className)}>
       {/* Navigation Links */}
       <div className="max-w-7xl mx-auto px-6 py-4">
         <nav className="flex flex-wrap items-center justify-center gap-x-8">
